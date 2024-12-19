@@ -1,4 +1,5 @@
-# Hardware version v0.1
+# Champaign Board Hardware version v0.1(2024/11/11)
+![champaign board](image/PCB.png)
 Everything except the GMAC(RTL8211E-VB-CG) and USB PHY(USB3320) is validated. The GMAC is working under 3V3 and I didn’t test it(maybe it will work using the LwIP test).
 
 And what’s even more interesting is that Vitis 2022 don’t support flashing the W25Q128 flash from winbond but vitis 2024 supports it. But for Zynq side vitis2022 can program that flash directly
